@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 100px;
+  }
+/* Farther or closer */
+  h1 {
+    margin-bottom: 20px;
+    color: whitesmoke;   
+  }
+  h2 {
+    color: whitesmoke;
+  }
+
+  /* inside and outside */
+  input {
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+  }
+
+  button {
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+  }
+
+/* up or down*/
+  #result {
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    color: whitesmoke;
+    background-color: black;
+  }
+
+video {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
